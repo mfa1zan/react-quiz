@@ -24,7 +24,7 @@ A React quiz application that tests your knowledge of React concepts with 15 mul
 - CSS variables and modern styling techniques
 
 ## 🚀 Getting Started
-
+ 
 Clone the repo:
 
 ```bash
