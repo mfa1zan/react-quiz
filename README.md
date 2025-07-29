@@ -1,5 +1,5 @@
 # 🧠 React Quiz App
-
+ 
 A React quiz application that tests your knowledge of React concepts with 15 multiple-choice questions. Features a countdown timer, real-time scoring, and high score tracking.
 
 ## 📷 Preview
