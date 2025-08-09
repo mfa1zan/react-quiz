@@ -74,7 +74,6 @@ export default function App(){
   const maxPossiblePoints = questions.reduce((prev, cur) => prev + cur.points, 0)
 
   useEffect(function(){
-    // fetch("http://localhost:8000/questions").then(res=>res.json()).then(data=>dispatch({type:"dataRecieved", payload: data})).catch(err=>dispatch({type:"dataFailed"}))
     fetch("https://raw.githubusercontent.com/mfa1zan/react-quiz/main/data/questions.json").then(res=>res.json()).then(data=>dispatch({type:"dataRecieved", payload: data.questions})).catch(err=>dispatch({type:"dataFailed"}))
     
   },[])
